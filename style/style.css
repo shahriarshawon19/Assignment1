@@ -304,9 +304,11 @@ button:hover{
 }
 footer{
     text-align: center;
+    padding: 90px ;
 }
 .lst{
     /* margin-left: 48px; */
     margin-right: 48px;
     margin-top: 20px;
+    
 }
