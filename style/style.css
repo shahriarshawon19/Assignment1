@@ -62,6 +62,7 @@ nav ul li{
    /* margin: 158px 0 267px ; */
    color: #252432;
    /* margin-bottom: 0; */
+   margin-top: 158px;
    
 }
 .des-btn{
@@ -76,7 +77,7 @@ nav ul li{
     margin-bottom: 152px;
 }
 
-section{
+.section-container{
     display: flex;
     justify-content: space-between;
 }
@@ -113,4 +114,10 @@ section{
     border-radius: 48px;
     width: 403px;
     height: 328px;
+}
+.section-container2{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin: 116px 150px 0;
+   
 }
