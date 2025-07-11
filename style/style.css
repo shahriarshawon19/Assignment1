@@ -119,5 +119,30 @@ nav ul li{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     margin: 116px 150px 0;
-   
+}
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 142px 0px;
+}
+.div-description{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-right: 151px;
+    margin-left: 151px;
+}
+.description-heading{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 3px;
+    margin-top: 40px;
+}
+.description-info{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
 }
