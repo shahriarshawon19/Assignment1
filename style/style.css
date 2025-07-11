@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .inter-font1 {
   font-family: "Inter", sans-serif;
@@ -160,13 +163,19 @@ nav ul li{
 
 }
 .pic{
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 48px;
     width: 840px;
     height: 365px;
-    margin: 20px 130px 0;
+    margin: 20px 120px 0; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 840px;
+    height: 365px;
+     border-radius: 48px;
 }
 .heading{
     font-size: 50px;
@@ -188,5 +197,74 @@ nav ul li{
     border-radius: 10px;
     border: none;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-container4{
+    display: flex;
+    justify-content: space-between;
+}
+.form-heading{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    width: 528px;
+    height: 232px;
+    margin-top: 292px;
+    margin-left: 150px;
+    margin-right: 115px;
+    margin-bottom: 200px;
+}
+
+.text1{
+    margin-top: 163px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+.text3{
+    margin-top: 19px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+.text3{
+    margin-top: 19px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+.input1, .input2{
+    padding: 10px 20px;
+    margin-right: 150px;
+    margin-bottom: 19px;
+    height: 70px;
+    width: 497px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.input3{
+     padding: 32px 20px;
+    margin-right: 150px;
+    margin-bottom: 19px;
+    height: 70px;
+    width: 497px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn2{
+     font-size: 16px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 19px 232px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+.button2{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 19px;
     margin-bottom: 20px;
 }
