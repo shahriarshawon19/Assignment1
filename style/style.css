@@ -20,6 +20,7 @@ header{
     max-width: 1440px;
     max-height: 700px;
     margin: 0 auto;
+    background-size: cover;
 }
 
 nav ul li{
@@ -145,4 +146,47 @@ nav ul li{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 50px;
+}
+.section-container3{
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: center;
+    margin: 137px 149px 0;
+    border-radius: 14px;
+}
+.last{
+    display: block;
+    text-align: center;
+
+}
+.pic{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 48px;
+    width: 840px;
+    height: 365px;
+    margin: 20px 130px 0;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+.paragraph{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.btn{
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
